@@ -1,6 +1,6 @@
 # Jetson-X-Pi load balancing
 
-First of all, I share the internet from my phone to both Jetson and Pi.
+First of all, I share the internet from my phone with both Jetson and Pi.
 and I keep my phone very close to the Jetson so that it can act as a hotspot.
 
 *The pi as a client then measures the link quality between it and the hotspot and using MQTT it publishes the info to the Jetson.
@@ -12,7 +12,7 @@ and I keep my phone very close to the Jetson so that it can act as a hotspot.
 * In a real-time process the server checks if the link quality is low or high.
 
 If the link quality is low then:
-there will be a real-time object detection process on the pi.
+-there will be a real-time object detection process on the pi.
 
 ![Picture2](https://github.com/syrine-bouhoula/Jetson-X-Pi/assets/63754152/8b24a9ed-c5c9-47e2-94d6-cedb834c7771)
 
